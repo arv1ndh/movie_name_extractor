@@ -34,7 +34,8 @@ class EinthusanParser(HTMLParser):
         if self.movie_title_flag == True:
             self.movie = data
             self.movie_title_flag = False
-    
+
+#TODO Write the movie List to a file, Extract the normal movies as well
 def main():
     language = "tamil"
     variables_dict = {"Numbers": [""], "Alphabets": list(string.ascii_uppercase)}
